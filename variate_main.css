@@ -17,9 +17,12 @@ header{
     display: flex;
     align-items: center;
 }
-
+.space{
+    height: 80px;
+}
 .container{
-    z-index: 1;
+    position: relative;
+    z-index: 10;
     /* height: 100%; */
     background-color: white;
     top: 0;
@@ -29,6 +32,10 @@ header{
     display: flex;
     align-items: center;
     box-shadow: 0px 10px 70px rgba(56, 54, 54, 0.322) ;
+}
+
+#sidebar-active{
+    display:none;
 }
 
 .container-box{
@@ -66,6 +73,10 @@ header{
 .left-item{
     cursor: pointer;
     height: 100%;
+}
+.right{
+    display: flex;
+    align-items: center;
 }
 .right-item{
     height: 100%;
@@ -293,3 +304,160 @@ header{
 
 
 
+
+
+
+.section-8{
+    width: 100%;
+}
+
+.grid-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-2-item{
+    cursor: pointer;
+    margin: 5px ;
+}
+
+/* .grid-2-item img{
+    width: 164px;
+} */
+
+
+
+
+
+/* section 9  */
+
+
+
+
+.section-9{
+        height: 100%;
+        width: 100%;
+}
+
+
+.section-9-content{
+    height: 100%;
+    width: 100%;
+}
+
+.section-9-content .first h2{
+    font-size: 54px;
+    font-weight: 500;
+}
+.section-9-content .second{
+    z-index: -1;
+    padding-top: 80px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}                  
+
+
+/* section-9 img gradiant  */
+
+.section-9-content .second .img-gradient{
+    height: 428px;
+    width: 760px;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    background-image: linear-gradient(to bottom, #FA3F7F, #F6AACE);
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.section-9-content .second img{
+    height: 428px;
+    width: 760px;
+}
+
+.section-9-content .third{
+    width: 60%;
+}
+
+.section-9-content .third h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.section-9-content .third p{
+    font-size: 20px;
+    color: #5f5f60;
+}
+
+
+
+
+
+
+/* section 10  */
+
+
+
+
+.section-10{
+    height: 100%;
+    width: 100%;
+}
+
+
+.section-10-content{
+height: 100%;
+width: 100%;
+}
+
+.section-10-content .first h2{
+font-size: 54px;
+font-weight: 500;
+}
+.section-10-content .second{
+z-index: -1;
+padding-top: 80px;
+position: relative;
+height: 100%;
+width: 100%;
+
+}                  
+
+
+/* section-10 img gradiant  */
+
+.section-10-content .second .img-gradient{
+height: 861px;
+width: 647px;
+position: absolute;
+top: -0px;
+right: 120px;
+background-image: linear-gradient(to bottom, #FE8639, #FED339);
+opacity: 0.2;
+z-index: -1;
+}
+
+.section-10-content .second img{
+    float: right;
+height: 861px;
+width: 647px;
+}
+
+.section-10-content .third{
+    float: right;
+    width: 55%;
+}
+.section-10-content .third h3{
+font-size: 24px;
+font-weight: 400;
+}
+
+.section-10-content .third p{
+font-size: 20px;
+color: #5f5f60;
+}
