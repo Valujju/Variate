@@ -33,9 +33,9 @@ header{
     align-items: center;
     box-shadow: 0px 10px 70px rgba(56, 54, 54, 0.322) ;
 }
-
-#sidebar-active{
-    display:none;
+.ham{
+    display: none;
+    font-size: 24px;
 }
 
 .container-box{
@@ -97,16 +97,7 @@ header{
     height: 100%;
     padding: 38px 24px;
 }
-/* 
-.right-item ul li:first-child{
-    padding: 38px 32px 38px 24px;
-}
- */
 
- .ham{
-    display: none;
-    font-size: 26px;
- }
 
  .right-item li:hover{
     color: aquamarine;
@@ -145,7 +136,7 @@ header{
  /* section 2 */
 
 
- .rigth-box{
+ .right-box{
     display: flex;
  }
 .section-2{
@@ -260,7 +251,7 @@ header{
 }
 .grid-item{
     height: 230px;
-    width: 250px;
+    width: 310px;
 }
 
 
@@ -381,7 +372,7 @@ header{
 }
 
 .section-9-content .third{
-    width: 60%;
+    width: 760px;
 }
 
 .section-9-content .third h3{
@@ -450,7 +441,7 @@ width: 647px;
 
 .section-10-content .third{
     float: right;
-    width: 55%;
+    width: 647px;
 }
 .section-10-content .third h3{
 font-size: 24px;
