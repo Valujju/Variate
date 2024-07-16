@@ -185,13 +185,29 @@
         width: 80%;
     }
     .section-9-content .second {
-        width: 100vw;
+        width: 100%;
     }
     .section-9-content .second img{
         width: 75%;
+        height: auto;
     }
-    .section-9-content .third{
+    
+    .section-9-content .second .img-gradient{
+        width: 75%;
+        height: 75%;
+    }
+
+    .section-10-content .third{
         width: 82%;
     }    
+    .section-10-content .second img{
+        width: 75%;
+        height: auto;
+    }
+    
+    .section-10-content .second .img-gradient{
+        width: 75%;
+        height: 75%;
+    }
 
 }
