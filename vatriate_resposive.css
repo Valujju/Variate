@@ -171,6 +171,14 @@
 
 
 @media (max-width:900px) {
+    .section-2{
+        width: 100%;
+        padding-top: 154px;
+        padding-bottom: 40px;
+    }
+    .section-2 h1{
+        width: 100%;
+    }
     .section-9-content .second {
         width: 100vw;
     }
