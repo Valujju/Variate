@@ -182,6 +182,9 @@
 
 
 @media (max-width:900px) {
+    .blank{
+        height: 40px;
+    }
     .section-2{
         width: 100%;
         padding-top: 154px;
