@@ -34,6 +34,7 @@ header{
     box-shadow: 0px 10px 70px rgba(56, 54, 54, 0.322) ;
 }
 .ham{
+    height: 100%;
     display: none;
     font-size: 24px;
 }
@@ -140,7 +141,7 @@ header{
     display: flex;
  }
 .section-2{
-    padding-top: 224px;
+    padding-top: 184px;
     padding-bottom: 40px;
 }
 
