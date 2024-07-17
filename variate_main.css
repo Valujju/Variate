@@ -453,3 +453,51 @@ font-weight: 400;
 font-size: 20px;
 color: #5f5f60;
 }
+
+
+.section-11 h3{
+    font-size: 54px;
+    font-weight: 520;
+}
+
+.section-11 p{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.section-12-gap{
+    margin-top: 40px;
+}
+.section-12{
+    width: 100%;
+}
+
+.section-12 h3{
+    font-weight: 500;
+    font-size: 40px;
+}
+.section-12 a{
+    color: #1D1D1f;
+}
+.section-12 a:hover{
+    text-decoration: none;
+}
+
+.section-12 p{
+    color: #5f5f60;
+    font-size: 20px;
+}
+.section-12 .left{
+    width: 70%;
+}
+
+
+.section-12 .right{
+    width: 30%;
+}
+.section-12 .right img{
+    width: 100vw;
+    max-height: 200px;
+}
