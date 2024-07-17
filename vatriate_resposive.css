@@ -145,7 +145,23 @@
     }
     .section-9-content .first h2{
         font-size: 30px;
+    }.section-12 h3{
+        font-weight: 500;
+        font-size: 20px;
     }
+    .section-12 p{
+        color: #5f5f60;
+        font-size: 16px;
+    }
+    /* .section-12 .left{
+        width: 60%;
+    }
+    
+    
+    .section-12 .right{
+        width: 40%;
+        height: 250px;
+    } */
 }   
 
 
@@ -237,4 +253,5 @@
     .section-10-content .third{
         width: 72%;
     }
+    
 }
