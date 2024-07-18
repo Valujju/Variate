@@ -19,6 +19,9 @@ header {
     display: flex;
     align-items: center;
 }
+.flex2{
+    display: flex;
+}
 
 .space {
     height: 80px;
@@ -333,7 +336,6 @@ header {
 }
 
 .grid-2-item {
-    cursor: pointer;
     margin: 5px;
 }
 
@@ -541,10 +543,13 @@ header {
 
 
 .section-13 {
-    width: 100%;
-    height: 700px;
+    width: 100vw;
 }
 
+.gradient-box-padding{
+    padding-left: 60px;
+    width: 50%;
+}
 
 .section-13 .gradient-box {
     margin:0 auto;
@@ -555,8 +560,10 @@ header {
 }
 
 .gradient-size{
-    height: 560px;
-    width: 424px;
+    max-height: 560px;
+    width: 30.286vw;
+    max-width:424px;
+    height: 40vw; 
 }
 
 .section-13 .grad-1 {
@@ -567,8 +574,10 @@ header {
 }
 
 .section-13 .before-after-gradient::after {
-    height: 560px;
-    width: 424px;
+    max-height: 560px;
+    width: 30.286vw;
+    max-width:424px;
+    height: 40vw; 
     top: 40px;
     left: 40px;
     content: '';
@@ -578,8 +587,10 @@ header {
     z-index: -1;
 }
 .section-13 .before-after-gradient::before {
-    height: 560px;
-    width: 424px;
+    max-height: 560px;
+    width: 30.286vw;
+    max-width:424px;
+    height: 40vw; 
     top: 80px;
     left: 80px;
     content: '';
@@ -589,4 +600,52 @@ header {
     z-index: -1;
 }
 
+.section-13 .form-box{
+    /* padding-top: 80px; */
+    width: 50%;
+}
+.section-13 .form-box h3{
+    font-size: 45px;
+    font-weight: 500;
+}
+.section-13 .form-box p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #5f5f60;
+}
 
+
+.form-{
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.form-input input[type=text]{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #5f5f60;
+    width: 570px;
+    height: 30px;
+    border: none;
+}
+.form-input input[type=text]:focus{
+    border: none;
+    outline: none;
+}
+
+.form-input{
+    border-bottom: 1px solid;
+}
+
+.form-btn{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 40px;
+}
