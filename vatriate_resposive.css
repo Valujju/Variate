@@ -153,6 +153,15 @@
         color: #5f5f60;
         font-size: 16px;
     }
+
+    .gradient-size{
+        width: 271.328px;
+        height: 358.358px;
+    }
+    .section-13 .before-after-gradient::after,  .section-13 .before-after-gradient::before{
+        width: 271.328px;
+        height: 358.358px;
+    }
     /* .section-12 .left{
         width: 60%;
     }
@@ -216,6 +225,13 @@
     .section-9-content .third{
         width: 85%;
     }  
+
+    .section-9-content .second {
+        z-index: -1;
+        padding-top: 10vmax;
+    }
+
+
     .section-10-content .second img{
         width: 75%;
         height: auto;
