@@ -40,9 +40,10 @@ header {
 }
 
 .ham {
+    padding: 10px;
     height: 100%;
     display: none;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .container-box {
@@ -84,6 +85,7 @@ header {
 }
 
 .right {
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -366,7 +368,7 @@ header {
 
 .section-9-content .second {
     z-index: -1;
-    padding-top: 80px;
+    padding-top: 20vmin;
     position: relative;
     height: 100%;
     width: 100%;
@@ -382,7 +384,7 @@ header {
     width: 760px;
     position: absolute;
     top: 0px;
-    left: 100px;
+    left: 10vw;
     background-image: linear-gradient(to bottom, #FA3F7F, #F6AACE);
     opacity: 0.2;
     z-index: -10;
@@ -543,39 +545,48 @@ header {
     height: 700px;
 }
 
-.section-13 .gradient {
-    width: 400px;
-    height: 500px;
-}
 
 .section-13 .gradient-box {
-    height: 100%;
+    margin:0 auto;
+    max-width: 536px;
+    width: 100%;
+    height: 640px;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.gradient-size{
+    height: 560px;
+    width: 424px;
 }
 
 .section-13 .grad-1 {
     background: linear-gradient(171deg, #FE8639 19.66%, #FED339 96.63%), #D9D9D9;
-    opacity: 0.2;
+    opacity: 0.6;
+    position: relative;
     z-index: -1;
 }
 
-.section-13 .grad-2 {
-    position: absolute;
-    top: 140px;
-    left: 550px;
+.section-13 .before-after-gradient::after {
+    height: 560px;
+    width: 424px;
+    top: 40px;
+    left: 40px;
+    content: '';
+    position: absolute; 
     background: linear-gradient(194deg, #FA3F7F 26.61%, #F6AACE 90.72%), #D9D9D9;
-    opacity: 0.2;
+    opacity: 0.6;
+    z-index: -1;
+}
+.section-13 .before-after-gradient::before {
+    height: 560px;
+    width: 424px;
+    top: 80px;
+    left: 80px;
+    content: '';
+    position: absolute; 
+    background: linear-gradient(166deg, rgba(0, 113, 253, 0.60) 29.41%, rgba(117, 213, 250, 0.60) 98.6%), #D9D9D9;
+    opacity: 0.6;
     z-index: -1;
 }
 
-.section-13 .grad-3 {
-    position: absolute;
-    top: 180px;
-    left: 600px;
-    background: linear-gradient(166deg, rgba(0, 113, 253, 0.60) 29.41%, rgba(117, 213, 250, 0.60) 98.6%), #D9D9D9;
-    opacity: 0.2;
-    z-index: -1;
-}
+
