@@ -701,7 +701,10 @@ header {
     bottom: 0;
 }
 
-
+.section-14-content-right .in i{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
 
 
