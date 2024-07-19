@@ -237,6 +237,7 @@ height: 40vw;  */
         float: none;
     }
     .ssw{
+        margin-left: 10px;
         width: auto;
     }
 }   
