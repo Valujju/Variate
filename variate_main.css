@@ -5,6 +5,20 @@
     overflow-x: hidden;
 }
 
+
+.container-box {
+    font-family: 'Matter SQ';
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    /* position: relative; */
+    box-sizing: border-box;
+    padding: 0 40px;
+    /* padding will down to 25px  */
+}
+
+
 header {
     top: 0;
     position: fixed;
@@ -22,7 +36,9 @@ header {
 .flex2{
     display: flex;
 }
-
+.flex3{
+    display: flex;
+}
 .space {
     height: 80px;
 }
@@ -49,17 +65,7 @@ header {
     font-size: 22px;
 }
 
-.container-box {
-    font-family: 'Matter SQ';
-    width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-    /* position: relative; */
-    box-sizing: border-box;
-    padding: 0 40px;
-    /* padding will down to 25px  */
-}
+
 
 .items {
     justify-content: space-between;
@@ -654,6 +660,82 @@ header {
 .bottom-border{
     margin: 0 auto;
     height: 10px;
-    width: 90%;
+    width: 100%;
     border-bottom: 0.1px solid #5f5f60;
+}
+
+
+.section-14-upper-content{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.section-14-upper-content h4{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.section-14-upper-content p{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+
+.section-14-content-left{
+    height: 100%;
+    width: 80%;
+}
+.section-14-content-right{
+    height: 100%;
+    position: relative;
+    width: 20%;
+}
+.section-14-content-right .in{
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+.section-14 .button{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    background-color: black;
+    color: white;
+    width: 145px;
+    height: 50px;
+}
+
+
+.section14-bottom-content{
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.ff{
+    width: 20%;
+    min-width: 80px;
+}
+.ssw{
+    width: 100%;
+}
+.ss{
+    color: #5f5f60;
+    gap: 20px;
+    float: right;
+}
+
+.footer-pera{
+    font-size: 16px;
+    font-weight: 300;
 }
